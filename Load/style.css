@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 12px solid #333;
+    border-top: 12px solid limegreen;
+    animation: rote 1s linear infinite;
+}
+
+@keyframes rote {
+    0% {
+        
+        transform: rotate(0deg);
+    }
+
+    100% {
+        
+        transform: rotate(360deb);
+    }
+}
