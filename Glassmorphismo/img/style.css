@@ -15,6 +15,9 @@
 img {
     width: 100%;
     min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 header {
@@ -67,6 +70,10 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+button {
+    display: none;
+}
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -74,4 +81,22 @@ h1 {
 
 ::-webkit-scrollbar-thumb {
     background-color: cornflowerblue;
+}
+
+@media (max-width: 375px) {
+
+    ul {
+        display: none;
+    }
+
+    button {
+        display: block;
+        padding: 3px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+
 }
