@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./img/dragon-scales.svg");
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 1px 1px #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    color: limegreen;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 10px;
+    width: 120px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, limegreen, #333);
+    border-style: dotted;
+    border-color: #fff;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
